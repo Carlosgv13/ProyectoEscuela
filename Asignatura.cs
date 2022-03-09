@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ProyectoEscuela
+namespace ProyectoEscuela   //para el que tenga la escuela:  propiedad nombre (string) e int Id (int)
 {
     public class Asignatura
 {

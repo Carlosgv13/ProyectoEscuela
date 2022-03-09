@@ -3,10 +3,11 @@ namespace ProyectoEscuela   //para el que tenga la escuela:  propiedad nombre (s
 {
     public class Asignatura
 {
-    public static void Main (string[] args)
-    {
-        
-    }   
+    
+    public string miPropiedad { get; set; } 
+    public string miPropiedad2 { get; set; }
+            
+      
 
 
 }

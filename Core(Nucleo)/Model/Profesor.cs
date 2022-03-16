@@ -1,19 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Core_Nucleo_
 {
-
-
-    public class Alumno
+    public class Profesor
     {
         string Nombre;
         int ID;
 
-        public Alumno(string Nombre , int ID)
-        {
-            this.Nombre = Nombre;
-            this.ID = ID;
-        }
+        //falta Duda preguntar a Carlos
         public void SetNombre(string Nombre)
         {
             this.Nombre = Nombre;
@@ -30,11 +28,5 @@ namespace Core_Nucleo_
         {
             return this.ID;
         }
-        
-        
-        
-
-
     }
-
 }

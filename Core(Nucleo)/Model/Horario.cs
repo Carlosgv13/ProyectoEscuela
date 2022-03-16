@@ -1,19 +1,23 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Core_Nucleo_
 {
-
-
-    public class Alumno
+    public class Horario
     {
+        //ID
+        //inicio
+        //FIN
+        //DiaDeLaSemana enumerado
+        //Fichero leer excel
+
         string Nombre;
         int ID;
 
-        public Alumno(string Nombre , int ID)
-        {
-            this.Nombre = Nombre;
-            this.ID = ID;
-        }
+       //Preguntar Carlos
         public void SetNombre(string Nombre)
         {
             this.Nombre = Nombre;
@@ -30,11 +34,6 @@ namespace Core_Nucleo_
         {
             return this.ID;
         }
-        
-        
-        
-
 
     }
-
 }

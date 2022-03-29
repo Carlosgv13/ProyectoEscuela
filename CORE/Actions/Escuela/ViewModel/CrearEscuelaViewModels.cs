@@ -1,1 +1,4 @@
- //Nombre
+public class CrearEscuelaViewModels
+{
+    string Nombre;
+}

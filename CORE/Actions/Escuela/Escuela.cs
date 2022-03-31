@@ -1,5 +1,6 @@
 ﻿namespace Core_Nucleo_;
 
+<<<<<<< Updated upstream:CORE/Actions/Escuela/Escuela.cs
 public class Escuela
  {
         string Nombre;
@@ -31,3 +32,19 @@ public class Escuela
     
  }
 
+=======
+namespace Core_Nucleo_
+{
+
+
+    public class Alumno
+    {
+        
+
+        public string Nombre { get; set; }
+        public int ID { get; set; }
+
+
+    }
+}
+>>>>>>> Stashed changes:Alumno.cs
